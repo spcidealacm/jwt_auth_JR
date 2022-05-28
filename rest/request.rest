@@ -1,0 +1,10 @@
+POST http://192.168.1.2:9090/login
+Content-Type: application/json
+
+{
+  "username": "Petter"
+}
+
+###
+GET http://192.168.1.2:9190/user_info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUGV0dGVyIiwiaWF0IjoxNjUzNzE2MjgzfQ.eCdIdWqSkOBIslDal9o44IVLSEacQHIajvrygLsTPvA
